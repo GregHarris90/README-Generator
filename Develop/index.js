@@ -57,7 +57,7 @@ const promptUser = () =>
 
 
 // TODO: Create a function to write README file
-// Added write file inside init function
+// Added 'writeFileSync' inside init function below
 // function writeToFile(fileName, data) { }
 
 // TODO: Create a function to initialize app
