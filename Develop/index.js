@@ -4,20 +4,6 @@ const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown.js");
 
 // TODO: Create an array of questions for user input X
-// Sections: 
-// Title? X
-// Description? X
-// Table of Contents? Build in template literal
-// Installation? X
-// Usage? X
-// License? X
-// Credits? X
-// Contributing? X
-// GitHub username? X
-// Tests? X
-// Questions? X
-// 
-// 
 
 const promptUser = () =>
     inquirer.prompt([
@@ -29,7 +15,7 @@ const promptUser = () =>
         {
             type: "input",
             name: "description",
-            message: "Provide a brief description of your project.",
+            message: "Please provide a brief description of your project!",
         },
         {
             type: "input",
@@ -39,12 +25,12 @@ const promptUser = () =>
         {
             type: "input",
             name: "usage",
-            message: "Provide instructions on how to use your application.",
+            message: "Please provide instructions on how to use your application!",
         },
         {
             type: "list",
             name: "license",
-            message: "Select the appropriate licenses.",
+            message: "Select the appropriate licenses:",
             choices: ["ApacheLicensev2.0", "GNUGeneralPublicLicensev3.0", "MITLicense", "N/A"],
         },
         {
