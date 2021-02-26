@@ -4,7 +4,7 @@
 
   
   ## Description
-  - This project is for a web application that generates a README markdown file by using Node.js and npm Inquirer.
+  - This project is for a terminal application to generate a README markdown file using node.js and the npm inquirer package.
   
   # Table of Contents
   
@@ -16,10 +16,10 @@
   * [Questions](##Questions)
   
   ## Installation
-  - First install npm and the Inquirer package as well.
+  - First install npm and the inquirer package as well, alongside node.
   
   ## Usage
-  - To use this application open the intergrated terminal in VSCode and then run 'node index.js.'
+  - To use this application open the integrated termincal in VSCode and then run 'node index.js'.
   
   ## License 
  - This project is made under the ApacheLicensev2.0.
@@ -28,7 +28,7 @@
   - So far only Greg Harris has worked on this project.
   
   ## Tests
-  - To test this project run node.js and work through the provided questions.
+  - To test this project run node.js and work through the provided questions about desired README file.
   
   ## Questions
   - GitHub Username: GregHarris90
