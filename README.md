@@ -7,7 +7,7 @@
 * [Repository](#Repository) 
 * [Technology Used](#Technology-Used) 
 * [User Story](#User-Story)
-* [Terminal Application](#README-Generator)
+* [Terminal Application](#Terminal-Application)
 * [Contact Info](#Contact-Info)
 * [Conclusion](#Conclusion)
 
