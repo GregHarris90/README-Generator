@@ -14,7 +14,7 @@ function renderLicenseLink(license) {
   if (license === "N/A") {
     return ("");
   } else {
-    return (`* [License](##License)`)
+    return (`* <a href="#license">License</a>`)
   }
 }
 
@@ -40,12 +40,12 @@ function generateMarkdown(data) {
   
   # Table of Contents
   
-  * [Installation](##Installation)
-  * [Usage](##Usage)
+  * <a href="#installation">Installation</a>
+  * <a href="#usage">Usage</a>
   ${renderLicenseLink(data.license)}
-  * [Contributing](##Contributing)
-  * [Tests](##Tests)
-  * [Questions](##Questions)
+  * <a href="#contributing">Contributing</a>
+  * <a href="#tests">Tests</a>
+  * <a href="#questions">Questions</a>
   
   ## Installation
   - ${data.installation}

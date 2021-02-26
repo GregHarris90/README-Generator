@@ -8,18 +8,18 @@
   
   # Table of Contents
   
-  * [Installation](##Installation)
-  * [Usage](##Usage)
-  * [License](##License)
-  * [Contributing](##Contributing)
-  * [Tests](##Tests)
-  * [Questions](##Questions)
+  * <a href="#installation">Installation</a>
+  * <a href="#usage">Usage</a>
+  * <a href="#license">License</a>
+  * <a href="#contributing">Contributing</a>
+  * <a href="#tests">Tests</a>
+  * <a href="#questions">Questions</a>
   
   ## Installation
   - First install npm and the inquirer package as well, alongside node.
   
   ## Usage
-  - To use this application open the integrated termincal in VSCode and then run 'node index.js'.
+  - To use this application open the integrated terminal in VSCode and then run 'node index.js'.
   
   ## License 
  - This project is made under the ApacheLicensev2.0.
