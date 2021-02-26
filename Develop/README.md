@@ -16,7 +16,7 @@
   * [Questions](##Questions)
   
   ## Installation
-  - First install npm and the Inquirer package as well
+  - First install npm and the Inquirer package as well.
   
   ## Usage
   - To use this application open the intergrated terminal in VSCode and then run 'node index.js.'
