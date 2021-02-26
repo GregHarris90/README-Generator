@@ -1,9 +1,10 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
+const generateMarkdown = require("./utils/generateMarkdown.js");
 
-// TODO: Create an array of questions for user input
-// Questions/Sections: 
+// TODO: Create an array of questions for user input X
+// Sections: 
 // Title? X
 // Description? X
 // Table of Contents? Build in template literal
@@ -13,8 +14,8 @@ const fs = require("fs");
 // Credits? X
 // Contributing? X
 // GitHub username? X
-// Tests? 
-// Questions?
+// Tests? X
+// Questions? X
 // 
 // 
 
@@ -44,12 +45,17 @@ const promptUser = () =>
             type: "list",
             name: "license",
             message: "Select the appropriate licenses.",
-            choices: ["Apache License v2.0", "GNU General Public License v3.0", "MIT License"],
+            choices: ["ApacheLicensev2.0", "GNUGeneralPublicLicensev3.0", "MITLicense"],
+        },
+        {
+            type: "input",
+            name: "test",
+            message: "What kind of tests instructions are needed for this project?"
         },
         {
             type: "input",
             name: "credits",
-            message: "Please share who worked on this project?"
+            message: "Please share who worked on or contributed to this project?"
         },
         {
             type: "input",
@@ -63,27 +69,6 @@ const promptUser = () =>
         }
     ]);
 
-const displayMarkdown = (data) =>
-    `
-    # Project Title:${data.title}
-    # Table of Contents
-    
-    # Description
-    # Installation
-    # Usage
-    # Contributing
-    # Tests
-    # License
-    # Questions
-    
-    
-    
-    
-    
-    
-    
-    `
-
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) { }
@@ -92,7 +77,7 @@ function writeToFile(fileName, data) { }
 function init() {
     promptUser().then((data) => {
         try {
-            const Markdown = displayMarkdown(data);
+            const Markdown = generateMarkdown(data);
             fs.writeFileSync("README.md", Markdown);
             console.log("Successfully wrote to README.md");
         } catch (error) {
