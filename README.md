@@ -44,14 +44,6 @@
 
 ![README Index 2](https://user-images.githubusercontent.com/73864182/109276477-ed1afc80-77ca-11eb-9040-21d159f1c3db.png)
 
-*Open Terminal 1*
-
-![README open terminal 1](https://user-images.githubusercontent.com/73864182/109276481-edb39300-77ca-11eb-83c6-d306016eae56.png)
-
-*Open Terminal 2*
-
-![README open terminal 2](https://user-images.githubusercontent.com/73864182/109276482-ee4c2980-77ca-11eb-897f-afde8a60c4f1.png)
-
 *Generate Markdown 1*
 
 ![README generateMd 1](https://user-images.githubusercontent.com/73864182/109276478-edb39300-77ca-11eb-8ece-3978fba2e97c.png)
@@ -63,6 +55,14 @@
 *Generate Markdown 3*
 
 ![README generateMd 3](https://user-images.githubusercontent.com/73864182/109276484-ee4c2980-77ca-11eb-8108-91cd8f12b95f.png)
+
+*Open Terminal 1*
+
+![README open terminal 1](https://user-images.githubusercontent.com/73864182/109276481-edb39300-77ca-11eb-83c6-d306016eae56.png)
+
+*Open Terminal 2*
+
+![README open terminal 2](https://user-images.githubusercontent.com/73864182/109276482-ee4c2980-77ca-11eb-897f-afde8a60c4f1.png)
 
 *Markdown File*
 
