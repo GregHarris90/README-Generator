@@ -78,7 +78,7 @@ https://drive.google.com/file/d/1ctYtdwVWj1OfXJWSv5Bvx3CNKogTcM4U/view
 # Contact-Info:
 
 - Name: Greg Harris
-- Email: ghart.productions@gmail.com
+- Email: ghcoder90@gmail.com
 
 # Conclusion
 
